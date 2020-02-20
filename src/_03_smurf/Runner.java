@@ -9,5 +9,13 @@ public static void main(String[] args) {
 	System.out.println(PapaSmurf.getName());
 	System.out.println(Smurfette.getName());
 	HandySmurf.eat();
+	PapaSmurf.eat();
+	Smurfette.eat();
+	System.out.println(HandySmurf.isGirlOrBoy());
+	System.out.println(PapaSmurf.isGirlOrBoy());
+	System.out.println(Smurfette.isGirlOrBoy());
+	System.out.println(HandySmurf.getHatColor());
+	System.out.println(PapaSmurf.getHatColor());
+	System.out.println(Smurfette.getHatColor());
 }
 }
